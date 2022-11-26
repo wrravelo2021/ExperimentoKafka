@@ -45,3 +45,9 @@ python subscriber.py
 ```bash
 python publisher.py
 ```
+
+## Ejecutar servidor
+
+```bash
+FLASK_ENV=development FLASK_APP=server.py python -m flask run
+```
